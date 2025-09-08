@@ -1,18 +1,44 @@
 <!DOCTYPE html>
+
 <head>
     <title>gufa.Labs for now!</title>
-<link href='https://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
+<link href=X rel='stylesheet' type='text/css'>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <style>
-.choicers {
-    
-}
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevents all scrolling */
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            min-width: 100vw;
+        }
+        .choicers {
+            display: flex;
+            gap: 1rem;
+        }
+        button {
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+        }
     </style>
 </head>
 
 <body>
 
+ <div class="choicers">
+        <button>Button 1</button>
+        <button>Button 2</button>
+        <!-- <button>Button 3</button> Uncomment if needed -->
+    </div>
 
 </body>
